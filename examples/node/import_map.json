@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "aws-cdk-lib": "npm:aws-cdk-lib@2/",
+    "aws-cdk-lib/": "npm:/aws-cdk-lib@2/",
+    "constructs": "npm:constructs@10/"
+  }
+}

@@ -1,8 +1,8 @@
-import { CloudSpec } from './src/cloudspec.ts'
-import { assertMatch, it, describe } from './src/testing.ts'
+import { CloudSpec } from '../../src/cloudspec.ts'
+import { assertMatch, it, describe } from '../../src/testing.ts'
 import { Bucket } from 'npm:aws-cdk-lib@2/aws-s3'
 
-const cloudspec = new CloudSpec('foo', import.meta.url);
+const cloudspec = new CloudSpec('deno-inline', import.meta.url);
 
 const testApp = await cloudspec.testApp((stack) => {
   const component = new Bucket(stack, 'MyBucket')
