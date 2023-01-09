@@ -1,6 +1,6 @@
 # Deno CloudSpec AWS CDK Proof of Concept
 
-This is a proof of concept for a [Deno](https://deno.land/) based cloudspec project. This will deploy an AWS CDK stack as part of the test and make expectations on the stack outputs.
+This is a proof of concept for a [Deno](https://deno.land/) based cloudspec project. This will deploy an AWS CDK stack as part of the test and make expectations on the stack outputs. It's using the Deno [testing](https://deno.land/manual@v1.29.2/basics/testing) capabilities.
 
 Nb: As stated above, that's a POC and nothing I'd recommend using at the moment.
 
